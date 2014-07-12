@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/img_btns"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <Button 
+        android:id="@+id/train"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#B8E68A"
+        android:text="Train"
+        android:onClick="onTrainClick"
+        android:textColor="#FFFFFF"
+        />
+    <Button 
+        android:id="@+id/game"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#33FFAD"
+        android:text="Game"
+        android:onClick="onGameClick"
+        android:textColor="#FFFFFF"
+        />
+    <Button 
+        android:id="@+id/about"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#EBCA00"
+        android:onClick="onAboutClick"
+        android:textColor="#AD5CFF"
+        android:text="About"
+        />
+    
+    
+</LinearLayout>
