@@ -1,0 +1,90 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:stretchColumns="*">
+    <TextView
+        android:padding="@dimen/activity_horizontal_margin"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:text="Sensor Connect page"/>
+    
+    <TextView
+        android:padding="@dimen/activity_horizontal_margin"
+        android:gravity="center_horizontal"
+        
+        android:text="1.Turn ON your sensor.\n2.CLick on Menu.\n3.Select Scan.\n4.Click on Menu.\n5.Select your sensor tag."/>
+    
+    <TextView
+        android:padding="@dimen/activity_horizontal_margin"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:text="\nAndroid Weather Station"/>
+    <TableRow>
+        <TextView
+            android:id="@+id/text_temperature"
+            android:layout_column="0"
+            android:textSize="@dimen/measurement_text_size"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_column="2"
+            android:id="@+id/text_pressure"
+            android:textSize="@dimen/measurement_text_size"
+            android:gravity="center_horizontal"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="0"
+            android:textSize="@dimen/label_text_size"
+            android:gravity="center_horizontal"
+            android:text="Ambient Temperature"/>
+        <TextView
+            android:layout_column="2"
+            android:textSize="@dimen/label_text_size"
+            android:gravity="center_horizontal"
+            android:text="Barometric Pressure"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/text_humidity"
+            android:layout_column="0"
+            android:textSize="@dimen/measurement_text_size"
+            android:gravity="center_horizontal"/>
+    <TextView
+            android:id="@+id/text_accelerometer"
+            android:layout_column="2"
+            android:textSize="@dimen/measurement_text_size"
+            android:gravity="center_horizontal"/>
+       
+    </TableRow>
+     <TableRow>
+         <TextView
+            android:layout_column="0"
+            android:textSize="@dimen/label_text_size"
+            android:gravity="center_horizontal"
+            android:text="Humidity"/>
+        <TextView
+            android:layout_column="2"
+            android:textSize="@dimen/label_text_size"
+            android:gravity="center_horizontal"
+            android:text="Accelerometer"/>
+    
+        
+    </TableRow>
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Start Game" />
+
+     <Button
+         android:id="@+id/analysis1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Analysis" />
+
+</TableLayout>
