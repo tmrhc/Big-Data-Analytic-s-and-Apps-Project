@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Copyright (C) 2011 Mariano Alvarez Fernandez
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+  <string name="mode_ready">MSnake\n¿Preparado?\nPulsa en la pantalla\npara jugar</string>
+  <string name="mode_pause">En Pausa\n¿Estás listo?\nPulsa en la pantalla\npara seguir</string>
+  <string name="mode_lose_prefix">Fin de Juego\nPuntos: </string>
+  <string name="mode_lose_prefix_cr">¡Has superado el record!\nPuntos: </string>
+  <string name="mode_lose_suffix">\n¿Juegas otro?\nPulsa en la pantalla\npara jugar</string>
+
+  <string name="score">Puntos: </string>
+  <string name="record">Record: </string>
+
+  <string name="bIzquierda">Izqrd</string>
+  <string name="bArriba">Arriba</string>
+  <string name="bAbajo">Abajo</string>
+  <string name="bDerecha">Derch</string>
+  <string name="bTIzquierda">Giro Izquierda</string>
+  <string name="bTDerecha">Giro Derecha</string>
+
+  <string name="menu_walls">Muros</string>
+  <string name="menu_zoom">Tamaño</string>
+  <string name="menu_speed">Vel.Rápida</string>
+  <string name="menu_input">Controles</string>
+  <string name="menu_records">Records</string>
+  <string name="menu_about">Acerca de</string>
+
+  <string name="snake_layout_text_text"></string>
+  
+  <string name="toast_wallson">Muros activados</string>
+  <string name="toast_wallsoff">Muros deactivados</string>
+  <string name="toast_fastoff">Velocidad lenta</string>
+  <string name="toast_faston">Velocidad rápida</string>
+  <string name="toast_zoombig">Tamaño grande</string>
+  <string name="toast_zoomnormal">Tamaño normal</string>
+  <string name="toast_zoomsmall">Tamaño pequeño</string>
+
+  <string name="toast_input2k">Controles:\nbotones de giro izq derch</string>
+  <string name="toast_input4k">Controles:\n4 botones de dirección</string>
+  <string name="toast_inputog">Controles:\nsólo trazos con el dedo</string>
+
+  <string name="records_title">MSnake Records</string>
+  <string name="records_linet">"Tamaño  Muros Veloc. Record\n------- ----- ------ ------"</string>
+  <string name="records_line0">"\nGrande  Si    Lenta  "</string>
+  <string name="records_line1">"\nGrande  No    Lenta  "</string>
+  <string name="records_line2">"\nNormal  Si    Lenta  "</string>
+  <string name="records_line3">"\nNormal  No    Lenta  "</string>
+  <string name="records_line4">"\nPequeño Si    Lenta  "</string>
+  <string name="records_line5">"\nPequeño No    Lenta  "</string>
+  <string name="records_line6">"\nGrande  Si    Rápida "</string>
+  <string name="records_line7">"\nGrande  No    Rápida "</string>
+  <string name="records_line8">"\nNormal  Si    Rápida "</string>
+  <string name="records_line9">"\nNormal  No    Rápida "</string>
+  <string name="records_line10">"\nPequeño Si    Rápida "</string>
+  <string name="records_line11">"\nPequeño No    Rápida "</string>
+
+  <string name="dlg_walls_title">Cambiar muros abortará la partida en curso,\n¿estás seguro?</string>
+  <string name="dlg_size_title">Cambiar tamaño abortará la partida en curso,\n¿estás seguro?</string>
+  <string name="dlg_speed_title">Cambiar velocidad abortará la partida en curso,\n¿estás seguro?</string>
+  <string name="dlg_input_title">Cambiar controles abortará la partida en curso,\n¿estás seguro?</string>
+  <string name="dlg_exit_title">Esto terminará la partida\nen curso, ¿estás seguro?</string>
+  <string name="dlg_yes">Si</string>
+  <string name="dlg_no">No</string>
+  <string name="dlg_ok">OK</string>
+
+  <string name="about_title">MSnake v1.8</string>
+  <string name="about_text">Copyright (C) 2007\n
+The Android Open Source Project\n
+Copyright (C) 2011\n
+Mariano Alvarez Fernandez\n\n 
+Probador\n
+Guillermo Alvarez Ocaña\n\n
+Derivado del juego Snake del\n
+SDK de Android. Un juego sencillo\n
+que todos pueden disfrutar\n\n
+MSnake es software libre bajo\n
+la licencia Apache\n
+Visita http://www.fgrim.com/msnake\n</string>
+  <string name="news_button">Novedades</string>
+  <string name="news_title">Nuevo en MSnake v1.8</string>
+  <string name="news_text">
+Versión 1.8\n\n
+Ahora puedes controlar la serpiente haciendo
+trazos en la pantalla con el dedo, mueve tu
+dedo hacia arriba, abajo, izquierda o derecha
+para mover la serpiente en esa dirección.\n\n
+Tres modos de control: 4 botones direccioneales,
+botones gira-izq gira-dcha o sólo trazos en
+pantalla.\n\n
+Mejoras estéticas.\n\n
+
+Versión 1.7\n\n
+Ahora al pulsar la tecla <b>Retroceso</b>\n
+cuando hay un juego en marcha, se pide\n
+confirmación de que se desea terminar.\n\n
+Consejo. Si lo que quieres es suspender\n
+el juego y volver más tarde, usa la\n
+tecla <b>Home</b>.\n</string>
+  <string name="news16_text">
+Ahora puedes seleccionar la nueva\n
+opción <b>velocidad rápida</b> desde\n
+el botón de menú del teléfono.\n\n
+Se guardan records distintos para\n
+velocidad lenta y rápida.\n\n
+Si tienes un juego en marcha y tratas\n
+de cambiar muros, tamaño o velocidad,\n
+aparecerá un diálogo avisándote que se\n
+abortará el juego actual.\n</string>
+</resources>
